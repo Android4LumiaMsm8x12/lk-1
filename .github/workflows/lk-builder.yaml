@@ -2,7 +2,7 @@ name: Build LittleKernel for all supported lumias
 on: [push]
 jobs:
   Build-LittleKernel-All:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
       - run: sudo apt install make gcc-arm-none-eabi
       - name: Check out LumiaLK
